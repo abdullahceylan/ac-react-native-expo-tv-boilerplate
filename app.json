@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "ac-native-video-ts",
-    "slug": "ac-native-video-ts",
+    "name": "ac-native-tv-boillerplate-ts",
+    "slug": "ac-native-tv-boillerplate-ts",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abdullahceylan.acnativetvboillerplatets"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.abdullahceylan.acnativetvboillerplatets"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
     }
   }
 }
