@@ -1,20 +1,9 @@
-## Issues and solutions
+[![NPM](https://img.shields.io/npm/v/ac-native-tv-boillerplate-ts.svg)](https://www.npmjs.com/package/ac-native-tv-boillerplate-ts)
 
-- [GIST file](https://gist.github.com/abdullahceylan/a3738c184abd1e79ccecaad6f53b0ffe)
-
-## Reference Links
-- [`eas.json` parameters and schema](https://github.com/expo/eas-cli/blob/1637573d7287dffc2965f8c6090aefc06f1b1759/packages/eas-json/schema/eas.schema.json#L130)
-
-## To create eas.json
-If you don't have `eas-cli`, you need to install first:
+## To use this template
 
 ```
-npm install -g eas-cli
-```
-then 
-
-```
-eas build:configure
+npx create-expo-app -t ac-native-tv-boillerplate-ts
 ```
 
 ## To run on Android TV
@@ -22,6 +11,12 @@ eas build:configure
 2. `yarn android`
 
 ## EAS Build for Testing
+If you don't have `eas-cli`, you need to install first:
+
+```
+npm install -g eas-cli
+```
+then 
 
 ```
 eas build --profile preview --platform android
@@ -35,3 +30,10 @@ Create `.env` file or you can rename `.env.example` file as `.env`.
 Variables from `.env` **will not be loaded** upon production build with `eas build`. 
 
 In order to add environment variables, you need to use `eas secret:create` command. https://docs.expo.dev/build-reference/variables/#adding-secrets-with-eas-cli
+
+## Expo issues and solutions
+
+- [GIST file](https://gist.github.com/abdullahceylan/a3738c184abd1e79ccecaad6f53b0ffe)
+
+## Reference Links
+- [`eas.json` parameters and schema](https://github.com/expo/eas-cli/blob/1637573d7287dffc2965f8c6090aefc06f1b1759/packages/eas-json/schema/eas.schema.json#L130)
